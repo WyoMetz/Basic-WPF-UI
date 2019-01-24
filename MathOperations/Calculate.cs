@@ -24,7 +24,7 @@ namespace MathOperations
 
         public string Division()
         {
-            if (x == 0 || y == 0)
+            if (y == 0)
             {
                 isIncorrect = true;
                 return ValueFailed();
